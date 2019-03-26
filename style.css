@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Forum|Prosto+One');
+
+@font-face{ 
+	font-family: 'Pacifico Regular';
+
+	src: url('fonts/pacifico-regular-webfont.eot');
+
+	src: url('fonts/pacifico-regular-webfont.eot?#iefix') format('embedded-opentype'),
+ 
+        url('fonts/pacifico-regular-webfont.woff') format('woff'),
+  
+       url('fonts/pacifico-regular-webfont.woff2') format('woff2'),
+
+	     url('fonts/pacifico-regular-webfont.ttf') format('truetype'),
+
+	     url('fonts/pacifico-regular-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'Ruslan Display';
+
+	src: url('fonts/ruslandisplay-webfont.eot');
+
+	src: url('fonts/ruslandisplay-webfont.eot?#iefix') format('embedded-opentype'),
+ 
+        url('fonts/ruslandisplay-webfont.woff') format('woff'),
+  
+       url('fonts/ruslandisplay-webfont.woff2') format('woff2'),
+
+	     url('fonts/ruslandisplay-webfont.ttf') format('truetype'),
+
+	     url('fonts/ruslandisplay-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'Underdog Regular';
+
+	src: url('fonts/underdog-regular-webfont.eot');
+
+	src: url('fonts/underdog-regular-webfont.eot?#iefix') format('embedded-opentype'),
+ 
+        url('fonts/underdog-regular-webfont.woff') format('woff'),
+  
+       url('fonts/underdog-regular-webfont.woff2') format('woff2'),
+
+	     url('fonts/underdog-regular-webfont.ttf') format('truetype'),
+
+	     url('fonts/underdog-regular-webfont.svg#webfont') format('svg');
+}
+body
+{
+  background-color: #2E64FE;
+  text-align: center;
+}
+/*
+.main-img 
+{
+border-radius:50%; 
+position: center;
+}
+*/
+figure img
+ {
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  text-align: center;
+  font-weight: 600;
+}
+
+.block{
+
+  display: block;
+  text-align: center;
+}
+
+.block .main-img
+{ 
+   width: 50%;
+    /* height: 250px;  */
+}
+
+.b1
+{
+  background-color: #819FF7
+}
+.b2
+{
+  background-color: #BCA9F5
+}
+.b3
+{
+  background-color: #2E64FE
+}
+.b4
+{
+  background-color: #298A08
+}
+.b5
+{
+  background-color: #0489B1
+}
+h1
+{
+  color: navy;
+  text-align: center;
+}
+.p1 {
+font-family:'Rubik', sans-serif;
+color: yellow;
+  font-size: 150%;
+font-style:italic;
+ }
+.p2 {
+font-family: 'Neucha', cursive;
+  color: navy;
+  font-size: 150%;
+font-weight:bold;
+background-color: pink;  
+border: 4px red solid; 
+}
+.p3 {
+font-family: 'Fira Mono', monospace;
+color: yellow;
+  font-size: 200%;
+font-style:italic;
+ border: 3px pink solid;   
+background-color: brown; 
+}
+.p4 {
+font-family:'Comfortaa', cursive;
+  color: orange;
+  font-size: 150%;
+font-weight:bold;
+ border: 2px olive solid;   
+   background-color: maroon; 
+}
+.p5 {
+font-family: 'Prosto One', cursive; 
+ color: olive;
+  font-size: 100%;
+ border: 1px yellow solid;   
+   background-color: navy; 
+}
+.p6 {
+ font-family: 'Forum', cursive;
+ color: lime;
+  font-size: 150%;
+font-style:italic;
+ border: 5px red solid;   
+   background-color: blue; 
+}
+.p7 {
+   font-family: 'Pacifico Regular';
+color: aqua;
+  font-size: 200%;
+font-weight:bold;
+ border: 4px blue solid;   
+   background-color: purple; 
+}
+.p8 {
+font-family: 'Underdog Regular';
+ color: teal;
+  font-size: 100%;
+font-style:italic;
+ border: 3px olive solid;   
+   background-color: grey; 
+}
+.p9 {
+ font-family: 'Ruslan Display';
+ color: purple;
+  font-size: 150%;
+font-style:italic;
+ border: 2px navy solid;   
+   background-color: silver; 
+  }
+dt {
+  font-family: 'Underdog Regular';
+ color: white;
+  font-size: 100%;
+font-style:italic;
+}
+
+dd {
+  margin-bottom: 10px;
+}
